@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Itsaadarsh/aadarsh-cli/issues"
   },
-  "homepage": "https://github.com/Itsaadarsh/aadarsh-cli#readme"
+  "homepage": "https://github.com/Itsaadarsh/aadarsh-cli#readme",
+  "dependencies": {
+    "import-jsx": "^4.0.0",
+    "ink": "^3.0.8",
+    "node-banner": "^1.4.0",
+    "react": "^17.0.1"
+  }
 }
