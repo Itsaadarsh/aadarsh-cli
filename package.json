@@ -1,0 +1,19 @@
+{
+  "name": "aadarsh-cli",
+  "version": "1.0.1",
+  "description": "Aadarsh CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Itsaadarsh/aadarsh-cli.git"
+  },
+  "author": "Aadarsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Itsaadarsh/aadarsh-cli/issues"
+  },
+  "homepage": "https://github.com/Itsaadarsh/aadarsh-cli#readme"
+}
