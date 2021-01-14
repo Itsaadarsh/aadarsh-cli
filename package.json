@@ -1,34 +1,66 @@
 {
-  "name": "aadarsh-cli",
-  "version": "1.0.1",
-  "description": "Aadarsh CLI",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Itsaadarsh/aadarsh-cli.git"
-  },
-  "author": "Aadarsh",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Itsaadarsh/aadarsh-cli/issues"
-  },
-  "homepage": "https://github.com/Itsaadarsh/aadarsh-cli#readme",
-  "dependencies": {
-    "import-jsx": "^4.0.0",
-    "ink": "^3.0.8",
-    "ink-select-input": "^4.2.0",
-    "node-banner": "^1.4.0",
-    "open": "^7.3.1",
-    "react": "^17.0.1"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.12.10",
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
-    "@babel/preset-react": "^7.12.10",
-    "@babel/register": "^7.12.10"
-  }
+	"name": "aadarsh-cli",
+	"version": "1.1.0",
+	"description": "Aadarsh CLI",
+	"license": "MIT",
+	"bin": "cli.js",
+	"author": "Aadarsh",
+	"engines": {
+		"node": ">=10"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Itsaadarsh/aadarsh-cli.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Itsaadarsh/aadarsh-cli/issues"
+	},
+	"homepage": "https://github.com/Itsaadarsh/aadarsh-cli#readme",
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js",
+		"ui.js"
+	],
+	"dependencies": {
+		"import-jsx": "^4.0.0",
+		"ink": "^3.0.8",
+		"ink-select-input": "^4.2.0",
+		"meow": "^9.0.0",
+		"node-banner": "^1.4.0",
+		"open": "^7.3.1",
+		"react": "^17.0.1"
+	},
+	"devDependencies": {
+		"@ava/babel": "^1.0.1",
+		"@babel/preset-env": "^7.12.11",
+		"@babel/preset-react": "^7.12.10",
+		"@babel/register": "^7.12.10",
+		"ava": "^3.15.0",
+		"chalk": "^4.1.0",
+		"eslint-config-xo-react": "^0.23.0",
+		"eslint-plugin-react": "^7.22.0",
+		"eslint-plugin-react-hooks": "^4.2.0",
+		"ink-testing-library": "^2.1.0",
+		"xo": "^0.37.1"
+	},
+	"ava": {
+		"babel": true,
+		"require": [
+			"@babel/register"
+		]
+	},
+	"babel": {
+		"presets": [
+			"@babel/preset-env",
+			"@babel/preset-react"
+		]
+	},
+	"xo": {
+		"extends": "xo-react",
+		"rules": {
+			"react/prop-types": "off"
+		}
+	}
 }
