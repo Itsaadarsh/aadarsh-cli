@@ -4,7 +4,7 @@ const SelectInput = require('ink-select-input').default;
 const { Box, Text } = require('ink');
 const open = require('open');
 
-const Counter = () => {
+const CLI = () => {
   const handleSelect = item => {
     if (item.label === '| EXIT |') {
       process.exit();
@@ -55,4 +55,4 @@ const Counter = () => {
   );
 };
 
-module.exports = Counter;
+module.exports = CLI;

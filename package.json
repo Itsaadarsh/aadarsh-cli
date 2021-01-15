@@ -1,9 +1,13 @@
 {
-	"name": "aadarsh-cli",
-	"version": "1.3.0",
+	"name": "itsaadarsh",
+	"version": "1.4.0",
 	"description": "Aadarsh CLI",
 	"license": "MIT",
-	"bin": "index.js",
+	"bin":{
+		"itsaadarsh":"index.js"
+
+	}, 
+	"main": "index.js",
 	"author": "Aadarsh",
 	"engines": {
 		"node": ">=10"
