@@ -2,22 +2,10 @@
 
 ### All my social's on your TERMINAL ;)
 
-## Install
-
-```bash
-$ npm install aadarsh-cli
-        OR
-$ npx itsaadarsh
-```
+![screenshot](./images/screenshot_cli.png)
 
 ## Usage
 
 ```bash
-./index.js
-
-require('aadarsh-cli')
-```
-
-```bash
-$ node ./index.js
+ $ npx itsaadarsh
 ```
